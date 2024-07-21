@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Churn Prediction in E-commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d5d9 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .content img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Customer Churn Prediction in E-commerce</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Business Problem</h2>
+            <p>Reducing customer churn rate is critical for e-commerce businesses to increase revenue and retain customers. By predicting which customers are likely to churn, the business can implement targeted retention strategies to improve customer loyalty and reduce revenue loss.</p>
+            
+            <h2>Background/History</h2>
+            <p>Customer churn prediction has become a vital aspect of business strategy for e-commerce companies. High churn rates can significantly impact a company's profitability and market position. Traditional methods focused on historical data analysis, but advancements in machine learning have enabled more accurate and actionable predictions.</p>
+            
+            <h2>Data Explanation</h2>
+            <ul>
+                <li>Customer Churn Prediction on Kaggle: Provides various customer information including demographics, account details, and service usage to predict churn. <a href="https://www.kaggle.com/code/bhartiprasad17/customer-churn-prediction">URL</a></li>
+                <li>Ecommerce Customer Churn Analysis and Prediction on Kaggle: Includes detailed information about customer demographics and online behavior. <a href="https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction">URL</a></li>
+                <li>E-Commerce Customer Churn Analysis and Prediction on Kaggle: Focuses on customer churn analysis in e-commerce with various features for predictive modeling. <a href="https://www.kaggle.com/code/ronaldopangarego/e-commerce-customer-churn-analysis-and-prediction">URL</a></li>
+                <li>E-commerce Customer Churn Prediction on Kaggle: Offers data for predicting churn in an e-commerce setting. <a href="https://www.kaggle.com/code/wonderdavid/e-commerce-customer-churn-prediction">URL</a></li>
+            </ul>
+            
+            <h2>Methods</h2>
+            <p>To analyze and predict customer churn, the following methods will be used:</p>
+            <ul>
+                <li>Logistic Regression</li>
+                <li>Random Forest</li>
+                <li>Neural Networks</li>
+            </ul>
+            
+            <h2>Analysis</h2>
+            <p>The analysis involves training and validating different machine learning models on the provided datasets. Techniques such as cross-validation and grid search are used to optimize model performance. The imbalanced nature of the datasets requires special handling, such as oversampling the minority class or using cost-sensitive learning methods.</p>
+            
+            <h2>Conclusion</h2>
+            <p>Predicting customer churn in e-commerce is essential for implementing effective retention strategies. The models developed in this project provide actionable insights into customer behavior, enabling businesses to proactively address churn risks.</p>
+            
+            <h2>Assumptions</h2>
+            <p>The data provided is representative of the overall customer base. The features selected for the models are sufficient to predict churn accurately.</p>
+            
+            <h2>Limitations</h2>
+            <p>The models may not generalize well to different e-commerce platforms with varying customer behaviors. Data quality issues, such as missing or inaccurate entries, can affect model performance.</p>
+            
+            <h2>Challenges</h2>
+            <p>Handling the imbalanced dataset to ensure accurate predictions. Feature engineering to create meaningful variables from raw data. Selecting appropriate metrics and validation strategies for model evaluation.</p>
+            
+            <h2>Future Uses/Additional Applications</h2>
+            <p>Extending the churn prediction model to other industries, such as telecommunications or banking. Integrating the model with real-time data processing systems to provide instant churn predictions. Using the insights from churn prediction to develop personalized marketing campaigns.</p>
+            
+            <h2>Recommendations</h2>
+            <p>Regularly update the model with new data to maintain its accuracy. Implement targeted retention strategies based on the model's predictions. Continuously monitor model performance and adjust features and algorithms as needed.</p>
+            
+            <h2>Implementation Plan</h2>
+            <ul>
+                <li>Data Collection: Gather and preprocess data from various sources.</li>
+                <li>Model Training: Train machine learning models using the prepared datasets.</li>
+                <li>Validation: Validate the models using appropriate metrics and validation strategies.</li>
+                <li>Deployment: Deploy the best-performing model in a production environment.</li>
+                <li>Monitoring: Continuously monitor model performance and make necessary adjustments.</li>
+            </ul>
+            
+            <h2>Ethical Assessment</h2>
+            <ul>
+                <li>Data Privacy: Ensuring the protection of customer data and complying with data privacy regulations.</li>
+                <li>Avoiding Discrimination: Making sure the model does not discriminate against any group of customers based on protected attributes like age, gender, or ethnicity.</li>
+            </ul>
+            
+            <h2>Visualizations</h2>
+            <img src="plot1_churn_rate_by_gender.png" alt="Churn Rate by Gender">
+            <img src="plot2_churn_rate_by_internet_service.png" alt="Churn Rate by Internet Service Type">
+            <img src="plot3_monthly_charges_distribution.png" alt="Monthly Charges Distribution">
+            <img src="plot4_tenure_vs_monthly_charges.png" alt="Tenure vs. Monthly Charges">
+            <img src="plot5_churn_rate_by_login_device_fixed.png" alt="Churn Rate by Preferred Login Device">
+            
+            <h2>Appendix</h2>
+            <p>Supporting Documentation: Detailed data dictionary, model training logs, and code snippets used for data preprocessing and model training.</p>
+            
+            <h2>10 Questions an Audience Would Ask</h2>
+            <ol>
+                <li>How was the data collected and processed?</li>
+                <li>What features were most important in predicting churn?</li>
+                <li>How did you handle missing data and outliers?</li>
+                <li>What metrics were used to evaluate model performance?</li>
+                <li>How do you ensure the model is not biased?</li>
+                <li>What are the potential impacts of incorrect predictions?</li>
+                <li>How frequently should the model be retrained?</li>
+                <li>How do you integrate the model with existing business systems?</li>
+                <li>What are the costs associated with implementing the model?</li>
+                <li>How do you measure the success of the retention strategies based on the model's predictions?</li>
+            </ol>
+            
+            <h2>References</h2>
+            <ul>
+                <li><a href="https://www.kaggle.com/code/bhartiprasad17/customer-churn-prediction">Customer Churn Prediction on Kaggle</a></li>
+                <li><a href="https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction">Ecommerce Customer Churn Analysis and
