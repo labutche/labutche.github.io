@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('images/floral-background.png'); /* Updated path */
+    background-image: url('images/floral-background.png'); /* Ensure the correct path */
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
