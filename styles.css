@@ -2,11 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://raw.githubusercontent.com/labutche/labutche.github.io/main/%E2%80%94Pngtree%E2%80%94floral%20background%20stroke%20style_2165058.png');
+    background-image: url('images/floral-background.png'); /* Updated path */
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #f4f4f4; /* Fallback color */
     color: #333;
 }
 
