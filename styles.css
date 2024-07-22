@@ -2,14 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://github.com/labutche/labutche.github.ioimages/floral-background.png'); /* Ensure the correct path */
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-color: #f4f4f4; /* Neutral light background */
+    color: #333; /* Default text color */
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.8);
+    background-color: #2f4f4f; /* Dark slate gray (nature-inspired) */
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -39,20 +37,20 @@ section {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #ffffff; /* White background for sections */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 h1 {
     text-align: center;
-    color: #444;
+    color: #2e8b57; /* Sea green (nature-inspired) */
 }
 
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: rgba(51, 51, 51, 0.8);
+    background-color: #2f4f4f; /* Dark slate gray */
     color: white;
     position: fixed;
     width: 100%;
